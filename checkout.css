@@ -1,0 +1,93 @@
+
+
+
+input[type=text]{
+    width: 30%;
+    padding: 1%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#styl {
+    display: flex; 
+}
+.postal_Code{
+    width: 30%;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    background-color: rgb(241, 139, 70);
+    columns:white;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    border: none;
+    
+    
+}
+
+#sty{
+    margin-bottom: 10px;
+}
+#outer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+
+}
+.bag{
+
+    display: flex;
+}
+.shoes{
+
+    display: flex;
+}
+.small_box{
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    border: 0.11rem solid black;
+    border-radius: 0.5rem;
+
+}
+
+.center{
+    margin-left: 2rem;
+    margin-top: 1.6rem;
+    
+}
+img {
+    height: 35%;
+    width: 25%;
+    border-radius: 1.5rem;
+    margin-top: 1.7rem;
+    margin-left: 20%;
+}
+
+.border{
+    flex-direction: column;
+    width: 14rem;
+    border-bottom: 1px solid black;
+ margin-left: 20%; 
+}
+#shipping{
+    height: 35%;
+    width: 25%;
+    background-color: rgb(236, 234, 234);
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.placeicon{
+    font-family: fontawesome;
+}
+@media only screen and (max-width: 600px){
+    #shipping{
+        height: 35%;
+        width: 70%;
+        margin-left: -30%;
+    }
+
+}
